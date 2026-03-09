@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
+=======
+>>>>>>> 033a2cc (added skill3)
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.hiber</groupId>
+<<<<<<< HEAD
   <artifactId>SKILL-2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
@@ -38,11 +42,30 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
+=======
+  <artifactId>SKILL3</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>SKILL3</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+>>>>>>> 033a2cc (added skill3)
       <scope>test</scope>
     </dependency>
     <dependency>
 <groupId>org.hibernate</groupId>
 <artifactId>hibernate-core</artifactId>
+<<<<<<< HEAD
 <version>6.2.0.Final</version>
 </dependency>
 <dependency>
@@ -102,4 +125,22 @@
       </plugins>
     </pluginManagement>
   </build>
+=======
+<version>5.6.15.Final</version>
+</dependency>
+
+<dependency>
+<groupId>mysql</groupId>
+<artifactId>mysql-connector-java</artifactId>
+<version>8.0.33</version>
+</dependency>
+
+<dependency>
+<groupId>javax.persistence</groupId>
+<artifactId>javax.persistence-api</artifactId>
+<version>2.2</version>
+</dependency>
+
+  </dependencies>
+>>>>>>> 033a2cc (added skill3)
 </project>
